@@ -1,0 +1,19 @@
+{
+  "name": "kyumei",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI-assisted infrastructure recon PoC — AI=司令官, CLIツール群=手下",
+  "scripts": {
+    "kyumei": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "optionalDependencies": {
+    "antigravity-client": "github:jkfujinami/antigravity-client"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
